@@ -11,7 +11,7 @@ Porém um pouco personalizado e usando one-shot para quando não souber a respos
 
 ## Como rodar
 1. Instale as dependências: `pip install -r requirements.txt`
-2. Crie um `.env` com sua chave: `GOOGLE_API_KEY=sua_chave`
+2. Copie o `.env.example` e renomeie para `.env` preencha `GOOGLE_API_KEY=` com sua chave
 3. Coloque os PDFs na pasta `pdfs/`
 4. Rode: `streamlit run app.py`
 5. E adicione um `.gitignore` para não subir arquivos desnecessários:
