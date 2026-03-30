@@ -14,15 +14,15 @@ Porém um pouco personalizado e usando one-shot para quando não souber a respos
 2. Crie um `.env` com sua chave: `GOOGLE_API_KEY=sua_chave`
 3. Coloque os PDFs na pasta `pdfs/`
 4. Rode: `streamlit run app.py`
-```
+5. E adicione um `.gitignore` para não subir arquivos desnecessários:
 
-E adicione um `.gitignore` para não subir arquivos desnecessários:
 ```
 .env
 chroma_db/
 .venv/
 __pycache__/
 *.pyc
+```
 
 ## Fontes dos PDFs
 [fundamentos_futebol](https://crefsc.org.br/)
