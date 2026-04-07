@@ -1,5 +1,7 @@
 # ⚽🧉 Agente Gaúcho de Regras de Futebol
 
+![Demo](./demo-regras-futebol.gif)
+
 Chatbot que responde perguntas sobre regras do futebol com sotaque gaúcho, usando RAG (Retrieval-Augmented Generation) para consultar documentos PDF oficiais.
 
 Construído com **LangChain**, **Google Gemini**, **ChromaDB** e **Streamlit**.
